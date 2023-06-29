@@ -18,7 +18,7 @@ def multiplier():
     return int(result)
 
 def division():
-    result = num1 / num2 if num2 > 0 else "division by zero is not allowed"
+    result = num1 / num2 if num2 != 0 else "division by zero is not allowed"
     return (result)
 
 if op == 1:
